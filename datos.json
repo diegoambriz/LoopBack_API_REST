@@ -1,0 +1,32 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "equipo": 4,
+    "estadio": 1,
+    "juego": 1,
+    "jugador": 4
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "equipo": {
+      "1": "{\"nombre\":\"Piratas\",\"logo\":\"imagen.jpg\",\"estado\":true,\"jugadores\":[\"3\"],\"id\":1}",
+      "2": "{\"nombre\":\"Jaguares\",\"logo\":\"imagen.jpg\",\"estado\":true,\"jugadores\":[\"3\"],\"id\":2}",
+      "3": "{\"nombre\":\"Real Madrid\",\"logo\":\"logo\",\"estado\":true,\"jugadores\":[],\"updated\":\"2019-07-10T04:19:52.644Z\",\"id\":3}"
+    },
+    "estadio": {},
+    "juego": {},
+    "jugador": {
+      "1": "{\"nombre\":\"Diego\",\"edad\":\"26\",\"apodo\":\"Dieguito\",\"foto\":\"imagen.jpg\",\"posicion\":\"Defensa\",\"estado\":true,\"id\":1}",
+      "2": "{\"nombre\":\"Xavier\",\"edad\":\"16\",\"apodo\":\"Xavi\",\"foto\":\"imagen.jpg\",\"posicion\":\"Portero\",\"estado\":true,\"id\":2}",
+      "3": "{\"nombre\":\"Cristiano Ronaldo\",\"edad\":\"34\",\"apodo\":\"CR7\",\"foto\":\"imagen.jpg\",\"posicion\":\"Delantero\",\"estado\":true,\"id\":3}"
+    }
+  }
+}
